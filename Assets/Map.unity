@@ -166,6 +166,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -222,6 +227,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -456,6 +466,11 @@ Prefab:
       propertyPath: m_Name
       value: Map_Tile_0_0
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -512,6 +527,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -525,6 +545,47 @@ Transform:
   m_PrefabParentObject: {fileID: 4815305192135624, guid: ca83ef937f17eaa45b7b095380d9c509,
     type: 2}
   m_PrefabInternal: {fileID: 497424316}
+--- !u!1 &711171689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 711171690}
+  - component: {fileID: 711171691}
+  m_Layer: 0
+  m_Name: CUDLR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &711171690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711171689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2123864834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711171691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711171689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2554b3ff7996402f9ad6253b4909cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Port: 55055
 --- !u!1001 &1137818123
 Prefab:
   m_ObjectHideFlags: 0
@@ -578,6 +639,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -634,6 +700,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -642,6 +713,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4815305192135624, guid: ca83ef937f17eaa45b7b095380d9c509,
     type: 2}
   m_PrefabInternal: {fileID: 1306591208}
+--- !u!1 &1397587964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1397587965}
+  - component: {fileID: 1397587966}
+  m_Layer: 0
+  m_Name: GPS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1397587965
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397587964}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2123864834}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1397587966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397587964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfdcc793b1b7ce49a592039723808d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsServiceStarted: 1
+  Latitude: 0
+  Longitude: 0
+  Altitude: 0
+  Accuracy: 0
+  Timestamp: 0
 --- !u!1001 &1840575527
 Prefab:
   m_ObjectHideFlags: 0
@@ -690,6 +807,11 @@ Prefab:
       propertyPath: TileOffset.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -751,6 +873,11 @@ Prefab:
       propertyPath: TileOffset.y
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -807,6 +934,11 @@ Prefab:
       propertyPath: TileOffset.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877949953045304, guid: ca83ef937f17eaa45b7b095380d9c509,
+        type: 2}
+      propertyPath: gpsLocationService
+      value: 
+      objectReference: {fileID: 1397587966}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ca83ef937f17eaa45b7b095380d9c509, type: 2}
   m_IsPrefabParent: 0
@@ -815,3 +947,33 @@ Transform:
   m_PrefabParentObject: {fileID: 4815305192135624, guid: ca83ef937f17eaa45b7b095380d9c509,
     type: 2}
   m_PrefabInternal: {fileID: 2122059105}
+--- !u!1 &2123864833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2123864834}
+  m_Layer: 0
+  m_Name: Services
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2123864834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2123864833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.710903, y: 36.151665, z: -11.5956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 711171690}
+  - {fileID: 1397587965}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
